@@ -1,0 +1,19 @@
+{
+  "name": "bayan",
+  "version": "0.0.0",
+  "description": "a multi-tenant, bilingual (Arabic/English) AI document assistant: cited answers from your PDFs, and RFI agent with human review, and usage billing.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "husky": "^9.1.7"
+  }
+}
