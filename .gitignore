@@ -1,0 +1,13 @@
+# Node
+node_modules/
+
+# Python
+.venv/
+__pycache__/
+
+# .NET
+bin/
+obj/
+
+# Secrets
+.env
