@@ -1,14 +1,14 @@
 {
   "name": "bayan",
   "version": "0.0.0",
-    "description": "a multi-tenant, bilingual (Arabic/English) AI document assistant: cited answers from your PDFs, and RFI agent with human review, and usage billing.",
+  "description": "a multi-tenant, bilingual (Arabic/English) AI document assistant: cited answers from your PDFs, and RFI agent with human review, and usage billing.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky"
   },
-"lint-staged":{
-	 "*.{js,ts,json,md,yml,yaml}": "prettier --write"
-},
+  "lint-staged": {
+    "*.{js,ts,json,md,yml,yaml}": "prettier --write"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
