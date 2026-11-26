@@ -1,1 +1,4 @@
+command -v gitleaks >/dev/null 2>&1 || { echo "gitleaks is not installed — see CONTRIBUTING.md"; exit 1; }
+gitleaks git --pre-commit --staged --redact --verbose
+npx lint-staged
 
