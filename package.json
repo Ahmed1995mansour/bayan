@@ -1,0 +1,24 @@
+{
+  "name": "bayan",
+  "version": "0.0.0",
+  "description": "a multi-tenant, bilingual (Arabic/English) AI document assistant: cited answers from your PDFs, and RFI agent with human review, and usage billing.",
+  "scripts": {
+    "test": "echo \"no tests yet (added in M1)\"",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{js,ts,json,md,yml,yaml}": "prettier --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.2",
+    "prettier": "3.10.1"
+  }
+}
